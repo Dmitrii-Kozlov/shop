@@ -11,6 +11,19 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
+from braintree import Configuration, Environment
+
+#Braintree settings
+BRAINTREE_MERCHANT_ID = 'phygdnsvvb6fy72t'
+BRAINTREE_PUBLIC_KEY = 'chcyzjmcnhk3bqrj'
+BRAINTREE_PRIVATE_KEY = 'fcdb99a31d0d4b05eb0cc72e70ed8b2a'
+
+Configuration.configure(
+    Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
