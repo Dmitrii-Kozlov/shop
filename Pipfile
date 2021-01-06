@@ -10,6 +10,7 @@ flower = "==0.9.2"
 celery = "==4.3.0"
 braintree = "==3.45.0"
 weasyprint = "*"
+django-rosetta = "*"
 
 [dev-packages]
 

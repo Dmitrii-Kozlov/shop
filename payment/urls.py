@@ -1,11 +1,11 @@
 from django.urls import path
-
+from django.utils.translation import gettext_lazy as _
 from  . import views
 
 app_name = 'payment'
 
 urlpatterns = [
-    path('process/', views.payment_process, name='process'),
-    path('done/', views.patment_done, name='done'),
-    path('canceled/', views.patment_canceled, name='canceled'),
+    path(_('process/'), views.payment_process, name='process'),
+    path(_('done/'), views.patment_done, name='done'),
+    path(_('canceled/'), views.patment_canceled, name='canceled'),
 ]
