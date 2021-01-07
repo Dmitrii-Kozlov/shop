@@ -11,6 +11,7 @@ celery = "==4.3.0"
 braintree = "==3.45.0"
 weasyprint = "*"
 django-rosetta = "*"
+redis = "==2.10.6"
 
 [dev-packages]
 

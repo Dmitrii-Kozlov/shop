@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "57e8d7b642c84a413c9233f9ac7b561def3854bb43ed8facb823aa505225e4f1"
+            "sha256": "54e29bd5c6adc699fb52805eafe11123f7041d591564e62e68f4a7d27eeaccdc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -259,6 +259,14 @@
                 "sha256:180befebb1927b16f6b57101720075a984c019ac16b1b7575673bea42c6c3da5"
             ],
             "version": "==2020.5"
+        },
+        "redis": {
+            "hashes": [
+                "sha256:8a1900a9f2a0a44ecf6e8b5eb3e967a9909dfed219ad66df094f27f7d6f330fb",
+                "sha256:a22ca993cea2962dbb588f9f30d0015ac4afcc45bee27d3978c0dbe9e97c6c0f"
+            ],
+            "index": "pypi",
+            "version": "==2.10.6"
         },
         "requests": {
             "hashes": [
